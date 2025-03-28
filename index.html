@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Balint&#x27;s Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+<link rel="icon" type="image/svg+xml" href="https://kovari.cc/favicon.svg">
+
+    <style>
+    :root {
+        /* Primary theme color */
+        --primary-color: #FED43F;
+        /* Primary theme text color */
+        --primary-text-color: #543631;
+        --primary-text-color-over: #000;
+        /* Primary theme link color */
+        --primary-link-color: #F9BB2D;
+        /* Secondary color: the background body color */
+        --secondary-color: #fcfaf6;
+        --secondary-text-color: #303030;
+        /* Highlight text color of table of content */
+        --toc-highlight-text-color: #d46e13;
+        --toc-background-color: white;
+        --code-color: #4a4a4a;
+        --code-background-color: white;
+
+        --shadow-color: #ddd;
+
+        /* Font used for headers (h1 & h2) */
+        --header-font-family: "Fira Sans", sans-serif;
+        /* Font used for text */
+        --text-font-family: "Fira Sans", sans-serif;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        :root {
+            --primary-color: #382929;
+            --primary-text-color: #d7d7d7;
+            --primary-text-color-over: #FFF;
+            --primary-link-color: #9b9b9b;
+            --secondary-color: #282828;
+            --secondary-text-color: #f2f2f2;
+            --toc-highlight-text-color: #f2f2f2;
+            --toc-background-color: #3a3a3a;
+            --code-color: white;
+            --code-background-color: #4a4a4a;
+
+            --shadow-color: #202020;
+            --header-font-family: "Fira Sans", sans-serif;
+            --text-font-family: "Fira Sans", sans-serif;
+        }
+    }
+</style>
+
+    
+    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="/normalize.css">
+    <link rel="stylesheet" href="https://kovari.cc/juice.css">
+    
+<link rel="stylesheet" href="https://kovari.cc/carbon.css">
+<link rel="stylesheet" href="https://kovari.cc/custom.css">
+
+</head>
+
+<body>
+    
+
+    <header class="pos-absolute" style="background-color: transparent">
+        
+
+<a href="https://kovari.cc/">
+    <div class="logo">
+        <img src="https://kovari.cc/me_work_square.jpg" alt="logo">
+        Balint&#x27;s Portfolio
+    </div>
+</a>
+
+<nav>
+    
+    
+</nav>
+
+    </header>
+
+    <div class="hero">
+        
+<section class="text-center">
+    <h1 class="heading-text">
+        Balint Barna Kovari
+    </h1>
+    <h3 class="title-text">
+        Software Engineer & Robotics Specialist
+    </h3>
+    <div class="social-links">
+        <a href="https://github.com/balintbarna?tab=repositories" target="_blank" rel="noopener">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub">
+            <span>GitHub</span>
+        </a>
+        <a href="https://www.linkedin.com/in/balintbarna/" target="_blank" rel="noopener">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Linkedin_circle.svg" alt="LinkedIn">
+            <span>LinkedIn</span>
+        </a>
+        <a href="mailto:balint@kovari.cc">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/ec/Circle-icons-mail.svg" alt="Email">
+            <span>Email</span>
+        </a>
+        <a href="https://codeberg.org/balint" target="_blank" rel="noopener">
+            <img src="https://design.codeberg.org/logo-kit/icon.svg" alt_inverted="Codeberg">
+            <span>Codeberg</span>
+        </a>
+    </div>
+</section>
+<img class="hero-image" src="https://kovari.cc/me_work_square.jpg">
+
+<div class="explore-more text"
+    onclick="document.getElementById('projects').scrollIntoView({behavior: 'smooth'})">
+    View My Projects ⇩
+</div>
+
+    </div>
+
+    
+
+    <main>
+        
+        
+        
+        
+        
+        <div class="toc">
+            <div class="toc-sticky">
+                
+                <div class="toc-item">
+                    <a class="subtext" href="https://kovari.cc/#featured-projects">Featured Projects</a>
+                </div>
+                
+                
+                <div class="toc-item-child">
+                    <a class="subtext" href="https://kovari.cc/#autonomous-drone-landing-using-vision"><small>- Autonomous Drone Landing Using Vision</small></a>
+                </div>
+                
+                <div class="toc-item-child">
+                    <a class="subtext" href="https://kovari.cc/#core-software-for-robotics"><small>- Core Software for Robotics</small></a>
+                </div>
+                
+                <div class="toc-item-child">
+                    <a class="subtext" href="https://kovari.cc/#java-swing-urcap-app-for-robotics"><small>- Java&#x2F;Swing&#x2F;URCap App for Robotics</small></a>
+                </div>
+                
+                <div class="toc-item-child">
+                    <a class="subtext" href="https://kovari.cc/#full-stack-web-application-for-robotics"><small>- Full Stack Web Application for Robotics</small></a>
+                </div>
+                
+                <div class="toc-item-child">
+                    <a class="subtext" href="https://kovari.cc/#micro-mouse-challenge"><small>- Micro Mouse Challenge</small></a>
+                </div>
+                
+                <div class="toc-item-child">
+                    <a class="subtext" href="https://kovari.cc/#robotics-and-computer-vision-project"><small>- Robotics and Computer Vision Project</small></a>
+                </div>
+                
+                <div class="toc-item-child">
+                    <a class="subtext" href="https://kovari.cc/#traffic-analysis-computer-vision-project"><small>- Traffic Analysis Computer Vision Project</small></a>
+                </div>
+                
+                <div class="toc-item-child">
+                    <a class="subtext" href="https://kovari.cc/#sokoban-solver-with-lego-mindstorms"><small>- Sokoban Solver with LEGO Mindstorms</small></a>
+                </div>
+                
+                <div class="toc-item-child">
+                    <a class="subtext" href="https://kovari.cc/#ludo-ai-player"><small>- Ludo AI Player</small></a>
+                </div>
+                
+                <div class="toc-item-child">
+                    <a class="subtext" href="https://kovari.cc/#drone-swarm-alignment-project"><small>- Drone Swarm Alignment Project</small></a>
+                </div>
+                
+                <div class="toc-item-child">
+                    <a class="subtext" href="https://kovari.cc/#interactive-game-dodge-the-creeps"><small>- Interactive Game: Dodge The Creeps</small></a>
+                </div>
+                
+                <div class="toc-item-child">
+                    <a class="subtext" href="https://kovari.cc/#cryptography-challenge"><small>- Cryptography Challenge</small></a>
+                </div>
+                
+                
+                
+                <div class="toc-item">
+                    <a class="subtext" href="https://kovari.cc/#additional-projects">Additional Projects</a>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        
+
+        <div class="content text">
+            
+            <div id="features" class="heading-text">Overview</div>
+            <div id="projects"></div>
+<h2 id="featured-projects">Featured Projects</h2>
+<p>Welcome to my portfolio showcasing selected projects across robotics, computer vision, and software engineering. Each project demonstrates my technical expertise and problem-solving approach in different domains.</p>
+<h3 id="autonomous-drone-landing-using-vision">Autonomous Drone Landing Using Vision</h3>
+<div class="icon-links">
+  <a href="https://www.youtube.com/watch?v=haIMd0PNrdU" class="icon-link"><img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Font_Awesome_5_brands_youtube-square.svg" alt="Video"/></a> 
+  <a href="https://github.com/balintbarna/Drone-Landing-Using-Accelerated-Vision" class="icon-link"><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="Source Code"/></a>
+</div>
+<div class="project-image">
+  <img src="https://img.youtube.com/vi/haIMd0PNrdU/0.jpg" alt="Drone Landing Demonstrations"/>
+</div>
+<ul>
+<li>Advanced software architecture integrating multiple systems</li>
+<li>Deep Neural Network object detection for real-time target recognition</li>
+<li>Visual servo control using image recognition techniques</li>
+<li>Computation accelerated with low-power FPGA technology</li>
+<li>Fully autonomous operation with all computation performed onboard</li>
+<li>Technologies: ROS, PX4, DPU, PYNQ, ZMQ, Python, Jupyter</li>
+<li><a href="https://ieeexplore.ieee.org/document/9597857">Published in IEEE</a></li>
+</ul>
+<hr />
+<h3 id="core-software-for-robotics">Core Software for Robotics</h3>
+<ul>
+<li>High-performance robot control systems in C++ and Python</li>
+<li>Real-time sensor data processing and fusion</li>
+<li>Robust communication stack for network and embedded systems</li>
+<li>Optimized for industrial robotics applications</li>
+</ul>
+<hr />
+<h3 id="java-swing-urcap-app-for-robotics">Java/Swing/URCap App for Robotics</h3>
+<ul>
+<li>Seamless API integration for Universal Robots</li>
+<li>Reliable communication between robots and peripheral devices</li>
+<li>Efficient data handling and processing</li>
+<li>Intuitive Swing-based graphical user interfaces</li>
+<li>Modular architecture for extensibility and maintenance</li>
+</ul>
+<hr />
+<h3 id="full-stack-web-application-for-robotics">Full Stack Web Application for Robotics</h3>
+<ul>
+<li>Complete solution using Angular, Express, Node.js, and TypeScript</li>
+<li>Large-scale modular application architecture</li>
+<li>Comprehensive supervision and control of robotics systems</li>
+<li>Advanced geometrical calculations and visualizations</li>
+<li>Responsive interface for monitoring robotic operations</li>
+</ul>
+<hr />
+<h3 id="micro-mouse-challenge">Micro Mouse Challenge</h3>
+<div class="icon-links">
+  <a href="https://www.youtube.com/watch?v=AxU2bBOCruU" class="icon-link"><img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Font_Awesome_5_brands_youtube-square.svg" alt="Video"/></a>
+  <a href="https://github.com/balintbarna/Micro-Mouse-Competition" class="icon-link"><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="Source Code"/></a>
+</div>
+<div class="project-image">
+  <img src="https://img.youtube.com/vi/AxU2bBOCruU/0.jpg" alt="Micro Mouse Video"/>
+</div>
+<ul>
+<li>Autonomous maze-solving robot with custom hardware and software</li>
+<li>Custom 3D printed components and PCB design</li>
+<li>Precise motor control using MOSFET PWM techniques</li>
+<li>Bluetooth connectivity for debugging and monitoring</li>
+<li>SLAM implementation for mapping and localization</li>
+<li>Path planning algorithms for efficient navigation</li>
+<li>Real-time control system with sensor integration</li>
+<li>Implemented in C++ for embedded systems</li>
+</ul>
+<hr />
+<h3 id="robotics-and-computer-vision-project">Robotics and Computer Vision Project</h3>
+<div class="icon-links">
+  <a href="https://github.com/balintbarna/Robotics-and-Computer-Vision-Semester-Project" class="icon-link"><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="Source Code"/></a>
+</div>
+<p>This project integrates robotics with advanced computer vision techniques:</p>
+<div class="image-grid">
+  <div class="image-item">
+    <p>Simulated workcell with robot, camera, and objects</p>
+    <img src="rovi/overview.png" alt="Project Overview"/>
+  </div>
+  <div class="image-item">
+    <p>2D to 3D pose estimation using RGB template matching</p>
+    <img src="rovi/template-matching.png" alt="Template Matching"/>
+  </div>
+  <div class="image-item">
+    <p>3D pose estimation using point cloud from depth sensor</p>
+    <div class="image-row">
+      <img src="rovi/pointcloud.png" alt="Point Cloud"/>
+      <img src="rovi/filtered-cloud-matching.png" alt="Filtered Cloud Matching"/>
+    </div>
+  </div>
+  <div class="image-item">
+    <p>Benchmarking artificial noise profiles</p>
+    <div class="image-row">
+      <img src="rovi/pc-noisy.png" alt="Noisy Point Cloud"/>
+      <img src="rovi/pc-noisy-match.png" alt="Noisy Cloud Matching"/>
+    </div>
+  </div>
+  <div class="image-item">
+    <p>Path planning using RRT Connect with optimization</p>
+    <div class="image-row">
+      <img src="rovi/rrt-path.png" alt="RRT Path Planning"/>
+      <img src="rovi/rrt-opt.png" alt="RRT Path Optimization"/>
+    </div>
+  </div>
+</div>
+<p>Additional features:</p>
+<ul>
+<li>Trajectory interpolation for smooth robot movement</li>
+<li>Reachability optimization for complex environments</li>
+<li>Seamless integration with user interface</li>
+<li>Technologies: RobWork, OpenCV, Point Cloud Library, C++</li>
+</ul>
+<hr />
+<h3 id="traffic-analysis-computer-vision-project">Traffic Analysis Computer Vision Project</h3>
+<div class="icon-links">
+  <a href="https://github.com/balintbarna/Traffic-Analysis-Computer-Vision" class="icon-link"><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="Source Code"/></a>
+</div>
+<div class="image-row traffic-images">
+  <img src="traffic-analysis/video_stream.png" alt="Video Stream"/>
+  <img src="traffic-analysis/warped.png" alt="Warped Stream"/>
+  <img src="traffic-analysis/masked.png" alt="Masked Stream"/>
+  <img src="traffic-analysis/filtered.png" alt="Filtered Stream"/>
+  <img src="traffic-analysis/tracked.png" alt="Tracked Stream"/>
+</div>
+<ul>
+<li>Real-time video processing pipeline for traffic monitoring</li>
+<li>Homography transform for perspective correction</li>
+<li>Advanced filtering techniques for noise reduction</li>
+<li>Clustering algorithms for vehicle identification</li>
+<li>Multi-object tracking system</li>
+<li>Technologies: OpenCV, ROS, Python</li>
+</ul>
+<hr />
+<h3 id="sokoban-solver-with-lego-mindstorms">Sokoban Solver with LEGO Mindstorms</h3>
+<div class="icon-links">
+  <a href="https://www.youtube.com/watch?v=Q1BFzPb1I8g" class="icon-link"><img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Font_Awesome_5_brands_youtube-square.svg" alt="Video"/></a>
+  <a href="https://github.com/balintbarna/Sokoban-AI-Semester-Project" class="icon-link"><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="Source Code"/></a>
+</div>
+<div class="project-image">
+  <img src="https://img.youtube.com/vi/Q1BFzPb1I8g/0.jpg" alt="Sokoban Project Video"/>
+</div>
+<ul>
+<li>Physical implementation of the classic Sokoban puzzle game</li>
+<li>Robust controller with sensor feedback (Python)</li>
+<li>Optimal path planning using A* algorithm (C++)</li>
+<li>Integration of AI planning with physical robotics</li>
+</ul>
+<hr />
+<h3 id="ludo-ai-player">Ludo AI Player</h3>
+<div class="icon-links">
+  <a href="https://github.com/balintbarna/Ludo-AI-Project" class="icon-link"><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="Source Code"/></a>
+</div>
+<div class="project-image">
+  <img src="ludo/game-board.png" alt="Ludo Game Simulation"/>
+</div>
+<ul>
+<li>Fully connected neural network implementation in Python</li>
+<li>Reinforcement learning approach for game strategy</li>
+<li>Training through simulated matches against various AI opponents</li>
+<li>Performance evaluation and strategy analysis</li>
+</ul>
+<hr />
+<h3 id="drone-swarm-alignment-project">Drone Swarm Alignment Project</h3>
+<div class="icon-links">
+  <a href="https://github.com/balintbarna/Collaborative-Drone-System-Node" class="icon-link"><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="Source Code"/></a>
+</div>
+<div class="project-image">
+  <img src="swarm/drones.png" alt="Drone Swarm Alignment"/>
+</div>
+<ul>
+<li>Multi-drone coordination system</li>
+<li>Gazebo simulation environment for testing</li>
+<li>Control algorithms using radial distance sensors</li>
+<li>Technologies: ROS, PX4, MAVROS, Python</li>
+</ul>
+<hr />
+<h3 id="interactive-game-dodge-the-creeps">Interactive Game: Dodge The Creeps</h3>
+<div class="icon-links">
+  <a href="DodgeTheCreeps/DodgeTheCreeps.html" class="icon-link"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/Video_game_controller_icon_designed_by_Maico_Amorim.svg" alt="Play Game"/></a>
+</div>
+<div class="project-image">
+  <a href="DodgeTheCreeps/DodgeTheCreeps.html">
+    <img src="DodgeTheCreeps/dodge-the-creeps.png" alt="Game Screenshot"/>
+  </a>
+</div>
+<ul>
+<li>Browser and mobile-compatible game</li>
+<li>Developed with Godot Engine</li>
+<li>Features fluid motion, animations, music, and sound effects</li>
+<li>Enemy AI and scoring system</li>
+<li><a href="https://kovari.cc/DodgeTheCreeps/DodgeTheCreeps.html">Play the game in your browser</a></li>
+</ul>
+<hr />
+<h3 id="cryptography-challenge">Cryptography Challenge</h3>
+<div class="icon-links">
+  <a href="https://github.com/balintbarna/Cryptography-Challenge" class="icon-link"><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="Source Code"/></a>
+</div>
+<div class="project-image">
+  <img src="crypto/crypto.png" alt="Cryptography Challenge"/>
+</div>
+<ul>
+<li>Implementation of various encryption algorithms</li>
+<li>Techniques for cryptanalysis and breaking encryption</li>
+<li>Developed in C#.NET</li>
+</ul>
+<hr />
+<h2 id="additional-projects">Additional Projects</h2>
+<ul>
+<li>Enterprise webstore configuration and related retail applications</li>
+<li><a href="https://github.com/balintbarna/Vision-Guided-Landing">Marker-based autonomous drone landing simulation</a></li>
+<li><a href="https://github.com/balintbarna/Pumpkin-Counter">Computer vision system for counting pumpkins in drone footage</a></li>
+<li><a href="https://github.com/balintbarna/Octree-Generator">Custom OcTree implementation with data payload</a></li>
+<li><a href="https://github.com/balintbarna/FPS-Game-Godot-Tutorial">3D first-person shooter game in Godot engine</a></li>
+<li><a href="https://github.com/balintbarna/Python-Video-Player">Python-based automated video player</a></li>
+<li><a href="https://github.com/balintbarna/django-data-query">Python Django web service</a></li>
+<li><a href="https://github.com/balintbarna/Python-Gui-App">Python Kivy GUI application</a></li>
+<li>Automated PowerPoint presentation system in C#.NET</li>
+<li><a href="https://github.com/balintbarna/Sample-Windows-Speech-Recognition-Macros">Advanced Windows Speech Recognition Macros</a></li>
+<li><a href="https://github.com/balintbarna/FPGA-Battery-Charger-Robot-Electronics-Semester-Project">FPGA-controlled battery charger</a></li>
+<li>Motorized stereo camera system for 3D vision</li>
+</ul>
+
+            
+        </div>
+
+        
+        <div class="sidebar">
+            Your can customize the sidebar.
+            <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CEBIL27E&placement=extensionsh" id="_carbonads_js"></script>
+        </div>
+        
+    </main>
+
+    
+<footer>
+    <div class="copyright">
+        © 2025 Balint Barna Kovari
+    </div>
+    <div class="links">
+        <a href="https://github.com/balintbarna" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/balintbarna/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://codeberg.org/balint" target="_blank" rel="noopener">Codeberg</a>
+        <a href="mailto:balint@kovari.cc">Contact</a>
+    </div>
+</footer>
+
+</body>
+<script>
+    const scrollHandler = entries => {
+        // Find the first entry which intersecting and ratio > 0.9 to highlight.
+        let entry = entries.find(entry => {
+            return entry.isIntersecting && entry.intersectionRatio > 0.9;
+        });
+        if (!entry) return;
+
+        document.querySelectorAll(".toc a").forEach((item) => {
+            item.classList.remove("active");
+        });
+
+        // let url = new URL(`#${entry.target.id}`);
+        let link = document.querySelector(`.toc a[href$="${decodeURIComponent(`#${entry.target.id}`)}"]`)
+        if (link) {
+            link.classList.add("active");
+            link.scrollIntoView({ behavior: "auto", block: "nearest" });
+        }
+    };
+    // Set -100px root margin to improve highlight experience.
+    const observer = new IntersectionObserver(scrollHandler, { threshold: 1 });
+    let items = document.querySelectorAll('h1,h2,h3,h4,h5,h6');
+    items.forEach(item => observer.observe(item));
+</script>
+
+</html>
